@@ -1,0 +1,26 @@
+{
+  "name": "belajar-nodejs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "app": "nodemon -V app.js",
+    "assignment2" : "nodemon -V assignment2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevanus-surjadi/belajar_nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevanus-surjadi/belajar_nodejs/issues"
+  },
+  "homepage": "https://github.com/stevanus-surjadi/belajar_nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
