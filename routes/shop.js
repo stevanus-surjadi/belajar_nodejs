@@ -4,12 +4,12 @@ const express = require('express');
 
 const router = express.Router();
 
+const productsController = require('../controllers/products');
+
 const rootDir = require('../util/path');
 
-router.get('/', (req,res,next) => {
-    //console.log('In the another middleware!');
-    //res.send('<h1>Hellow from middleware</h1>');
-    res.sendFile(path.join(rootDir,'views','shop.html'));
-});
+const adminData = require('./admin');
+
+router.get('/', productsController.getProducts);
 
 module.exports = router;
